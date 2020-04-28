@@ -1,0 +1,355 @@
+/* Fonts improt */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+	font-family: 'Karla', sans-serif;
+	font-size: 2.35vh;
+	color: #373636;
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 2vh;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+	font-family: inherit;
+	font-size: 1em;
+}
+
+a:hover {
+	color: #000000;
+	font-weight: bold;
+}
+
+p {
+	font-size: 0.8em;
+	font-family: 'OpenSans', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	height: 10vh;
+}
+
+nav ul li {
+	list-style-type: none;
+	text-align: right;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	width: 44%;
+	min-width: 600px;
+	float: right;
+	margin-right: 6%;
+	margin-top: 3.5vh;
+	margin-bottom: 2vh;
+}
+.navigation {
+ 	position: fixed;
+	width: 100%;
+ 	background-color: rgba(255, 255, 255, 0.75);
+}
+
+#works-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.works {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100vw;
+	height: 90vh;
+}
+
+.w_big {
+	flex-basis: 50%;
+	height: 45vh;
+}
+
+.wb_left {
+	background-color: #5c6d7c;
+	background-image: url(../images/pb_left.png);
+	background-size: contain;
+	background-size: cover;
+}
+
+.wb_right {
+	background-color: #c5c3c3;
+	background-image: url(../images/pb_right.png);
+}
+
+.w_small {
+	flex-basis: 25%;
+	height: 35vh;
+}
+
+.ws_left {
+	background-color: #ef7778;
+	background-image: url(../images/ps_left.png);
+	background-size: contain;
+}
+
+.ws_right {
+	background-color: #fad663;
+	background-image: url(../images/ps_right.png);
+	background-size: contain;
+}
+
+.ws_middle_left {
+	background-color: #ececec;
+	background-image: url(../images/ps_middle_left.png);
+	background-size: contain;
+}
+
+.ws_middle_right {
+	background-color: #d5ede7;
+	background-image: url(../images/ps_middle_right.png);
+	background-size: contain;
+	background-size: cover;
+}
+
+.expand {
+	margin: 4vh 0;
+}
+
+#what_i_do-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+.wid_column {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.wid_h1 {
+	flex-basis: 40%;
+	padding-left: 4vw;
+}
+
+.my_activity {
+	flex-basis: 38%;
+	margin-right: 6%;
+}
+
+.line {
+	width: 2px;
+	height: 12vh;
+	background-color: black;
+	margin: 0 6%;
+}
+
+.wid_top {
+	flex-basis: 30%;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2vh;
+}
+
+.wid_middle {
+	flex-basis: 70%;
+	order: 0;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.skill_description {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-basis: 35%;
+	margin-left: 6%;
+}
+
+.computer_img {
+	background-image: url(../images/computer.png);
+	background-color: #eeeeee;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 100%;
+	height: 40vh;
+	margin-top: 2vh;
+}
+
+.skill_article h2 {
+	margin-top: 10vh;
+	margin-bottom: 4vh;
+}
+.menu {
+	flex-basis: 51.5%;
+	height: 42vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.menu_button {
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	cursor: pointer;
+}
+
+.box {
+	width: 3vw;
+	height: 3vw;
+	background-color: #f1f1f1;
+}
+
+.menu_button h2 {
+	flex-basis: 100%;
+	text-align: center;
+	font-weight: normal;
+}
+
+.menu_button:hover .box {
+	background-color: #d4d4d4;
+}
+
+.menu_button:hover h2 {
+	font-weight: bold;
+}
+
+
+
+#about_me {
+	height: 100vh;
+	width: 100%;
+	margin-top: 12.5ch;
+	padding-top: 12.5vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.in-about_me {
+	height: 75vh;
+	flex-basis: 35%;
+}
+
+.portret {
+	margin-left: 6%;
+	background-image: url(../images/portret.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.biographi {
+	margin-right: 6%;
+}
+
+.biographi h1 {
+	margin-bottom: 8vh;
+}
+
+#contact {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-inf {
+	width: 38%;
+	margin-left: 6%;
+}
+
+.inf {
+	padding-top: 12vh;
+	height: 18vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+}
+
+.inf div {
+	height: 50%;
+}
+
+.inf h2 {
+	text-align: left;
+}
+
+.address {
+	margin-bottom: 4vh;
+}
+
+.phone {
+	margin-right: 5vw;
+}
+
+.form {
+	width: 38%;
+	margin-right: 6%;
+	font-size: 1.2em;
+	font-family: 'Karla', sans-serif;
+}
+
+.form p {
+	margin: 1vh 0;
+}
+
+textarea {
+	width: 30vw;
+	height: 22vh;
+	resize: none;
+	font-size: 22px;
+}
+
+input {
+	height: 4vh;
+	width: 30vw;
+}
+
+.forms {
+	background-color: #f1f1f1;
+	border: 0;
+	font-size: 0.5em;
+}
+
+.send {
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 0.6em;
+	cursor: pointer;
+}
+
+.send:hover {
+	font-weight: bold;
+}
+
+footer {
+	font: bold 1.3em 'Karla', sans-serif;
+	height: 16vh;
+	display: flex;
+	align-items: center;
+	padding-left: 11%
+}
